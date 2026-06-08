@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1f1f1f;
+  background: #ffffff;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  background: #ffffff;
+}
+
+img {
+  max-width: 100%;
+}
+
+@layer components {
+  .container-pad {
+    @apply mx-auto max-w-[1280px] px-5 sm:px-6 lg:px-20;
+  }
+
+  .section-pad {
+    @apply py-16 lg:py-20;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-3xl bg-primary px-7 py-4 font-heading text-sm font700 text-white shadow-soft transition duration-300 hover:-translate-y-0.5 hover:bg-secondary hover:shadow-hover focus:outline-none focus:ring-4 focus:ring-primary/25;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-3xl border-2 border-primary px-7 py-4 font-heading text-sm font700 text-primary transition duration-300 hover:-translate-y-0.5 hover:bg-primary hover:text-white focus:outline-none focus:ring-4 focus:ring-primary/20;
+  }
+
+  .card {
+    @apply rounded-3xl bg-white shadow-soft transition duration-300;
+  }
+}
+
+.font700 {
+  font-weight: 700;
+}
+
+.font600 {
+  font-weight: 600;
+}
+
+.font800 {
+  font-weight: 800;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+.brand-text {
+  filter: grayscale(1);
+  opacity: 0.48;
+}
+
+.brand-text:hover {
+  color: #f15a00;
+  filter: grayscale(0);
+  opacity: 1;
+}

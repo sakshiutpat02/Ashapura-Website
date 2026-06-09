@@ -31,14 +31,16 @@ export default function Footer() {
           />
           <p className="text-sm leading-7 text-white/70">
             Premium quality groceries and home essentials delivered with trust since 1998.
-            Your family's favorite supermarket.
+            Your family's favorite Grain Store.
           </p>
           <a
             className="mt-6 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-primary"
-            href="#home"
-            aria-label="Share Shree Aashapura Supermarket"
+            href="https://www.instagram.com/ashapuramart.in?igsh=cjM2d3MxdHUxM2Q="
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit our Instagram page"
           >
-            <Icon name="share" className="h-5 w-5" />
+            <Icon name="instagram" className="h-5 w-5" />
           </a>
         </div>
         <FooterList title="Quick Links" items={quickLinks} linked />
@@ -63,7 +65,7 @@ export default function Footer() {
       </div>
       <div className="container-pad mt-12 border-t border-white/10 pt-8">
         <div className="flex flex-col items-center justify-between gap-4 text-sm text-white/60 md:flex-row">
-          <p>Copyright 2026 Shree Ashapura Supermarket. All rights reserved.</p>
+          <p>Copyright 2026 Shree Ashapura Grain Store. All rights reserved.</p>
           <div className="flex gap-6">           
           </div>
         </div>

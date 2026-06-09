@@ -15,7 +15,7 @@ export default function AboutSection() {
         <div className="order-2 lg:order-1">
           <img
             src={"/About Section.png"}
-            alt="Organized supermarket aisle with fresh products and warm lighting"
+            alt="Organized Grain Store aisle with fresh products and warm lighting"
             className="h-[360px] w-full rounded-3xl object-cover shadow-soft sm:h-[500px]"
             width="640"
             height="500"
@@ -25,7 +25,7 @@ export default function AboutSection() {
         <div className="order-1 lg:order-2">
           <p className="font700 text-sm uppercase tracking-[0.22em] text-primary">Our Story</p>
           <h2 className="mt-2 font-heading text-3xl font800 leading-tight text-ink sm:text-[32px]">
-            About Shree Aashapura Supermarket
+            About Shree Aashapura Grain Store
           </h2>
           <p className="mt-6 text-base leading-7 text-body">
             We believe that shopping for your family should be an experience of trust and

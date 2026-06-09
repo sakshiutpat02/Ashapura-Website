@@ -6,7 +6,7 @@ export const store = {
   fullName: "Shree Aashapura Supermarket",
   phone: "+91 9920579317",
   hours: "08:00 AM - 10:00 PM",
-  email: "hello@shreeaashapura.com",
+  email: "customerservice.shreeashapura@gmail.com",
   location: "Mumbai, Maharashtra",
   address:
     "S No 14, #A-14, Alankar Shopping Center, NNP, 344 Last Bus Stop, Plot No 26, Jai Bhim Nagar, Nagri Niwara Cooperative Housing Society, Goregaon East, Mumbai, Maharashtra 400065"

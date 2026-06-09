@@ -19,7 +19,7 @@ export default function HeroSection() {
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-body">
             Discover the freshest groceries and premium household essentials at Shree
-            Ashapura Supermarket. Your trusted local partner for quality and value since
+            Ashapura Grain Store. Your trusted local partner for quality and value since
             1998.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">

@@ -2,7 +2,7 @@ const stats = [
   ["5000+", "Happy Customers"],
   ["1000+", "Quality Products"],
   ["Fresh", "Stock Daily"],
-  ["Trusted", "Local Supermarket"]
+  ["Trusted", "Local Grain Store"]
 ];
 
 export default function StatsSection() {

@@ -3,7 +3,7 @@ import Icon from "./Icon.jsx";
 const reasons = [
   ["leaf", "Farm Fresh Quality", "Fresh fruits, vegetables, and daily essentials carefully selected for your family."],
   ["card", "Great Value", "Fair pricing on household staples without compromising quality."],
-  ["basket", "Everything Nearby", "A wide local supermarket selection under one convenient roof."],
+  ["basket", "Everything Nearby", "A wide local grain store selection under one convenient roof."],
   ["smile", "Friendly Service", "Helpful staff and a warm neighborhood shopping experience."],
   ["clock", "Opens Daily", "Reliable store timings from morning to late evening every day."],
   ["grid", "Easy Shopping", "Can place your order from anywhere now."]

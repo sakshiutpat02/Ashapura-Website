@@ -19,8 +19,7 @@ export default function HeroSection() {
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-body">
             Discover the freshest groceries and premium household essentials at Shree
-            Ashapura Grain Store. Your trusted local partner for quality and value since
-            1998.
+            Ashapura Grain Store. Your trusted local partner for quality and value.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#categories" className="btn-primary">
@@ -44,7 +43,7 @@ export default function HeroSection() {
         <div className="relative">
           <div className="absolute inset-8 rounded-full bg-primary/10 blur-3xl" aria-hidden="true" />
           <img
-            src={images.hero}
+            src={"/Hero.png"}
             alt="Fresh supermarket basket filled with colorful fruits and vegetables"
             className="relative aspect-[4/3] w-full rotate-2 rounded-3xl object-cover shadow-2xl transition duration-500 hover:rotate-0"
             width="720"

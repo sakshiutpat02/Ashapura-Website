@@ -30,13 +30,13 @@ export default function Navbar() {
           <span className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-cream ring-1 ring-line">
             <img
               src="/Ashapura Logo.png"
-              alt="Shree Aashapura Supermarket"
+              alt="Shree Aashapura Grain Store"
               className="h-full w-full object-contain"
               width="48"
               height="48"
             />
           </span>
-          <span className="hidden font-heading text-xl font800 text-primary lg:block">
+          <span className="font-heading text-base font800 text-primary sm:text-lg lg:text-xl">
             {store.name}
           </span>
         </a>

@@ -2,8 +2,8 @@ export const WHATSAPP_URL =
   "https://wa.me/919920579317?text=Hello%2C%20I%20would%20like%20to%20place%20my%20order";
 
 export const store = {
-  name: "Shree Ashapura",
-  fullName: "Shree Aashapura Supermarket",
+  name: "Shree Ashapura Grain Store",
+  fullName: "Shree Aashapura Grain Store",
   phone: "+91 9920579317",
   hours: "08:00 AM - 10:00 PM",
   email: "customerservice.shreeashapura@gmail.com",

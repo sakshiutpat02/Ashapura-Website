@@ -14,7 +14,7 @@ export default function AboutSection() {
       <div className="container-pad grid items-center gap-14 lg:grid-cols-2 lg:gap-16">
         <div className="order-2 lg:order-1">
           <img
-            src={"/About Section.png"}
+            src={"/Hero.png"}
             alt="Organized Grain Store aisle with fresh products and warm lighting"
             className="h-[360px] w-full rounded-3xl object-cover shadow-soft sm:h-[500px]"
             width="640"

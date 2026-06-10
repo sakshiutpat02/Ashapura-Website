@@ -43,7 +43,7 @@ export default function HeroSection() {
         <div className="relative">
           <div className="absolute inset-8 rounded-full bg-primary/10 blur-3xl" aria-hidden="true" />
           <img
-            src={"/Hero.png"}
+            src={"/About Section.png"}
             alt="Fresh supermarket basket filled with colorful fruits and vegetables"
             className="relative aspect-[4/3] w-full rotate-2 rounded-3xl object-cover shadow-2xl transition duration-500 hover:rotate-0"
             width="720"

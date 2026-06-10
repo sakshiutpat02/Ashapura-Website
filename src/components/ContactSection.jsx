@@ -24,10 +24,12 @@ export default function ContactSection() {
           CALL FOR BULK ORDERS
           </a>
           <a
-          href="#categories"
-          className="rounded-2xl border border-line px-8 py-4 font800 text-ink"
+          href="https://g.page/r/CS9TOZo6VkZ6EBE/review"
+          target="_blank"
+          rel="noreferrer"
+          className="rounded-2xl border border-line px-8 py-4 font800 text-ink transition hover:border-primary hover:text-primary"
           >
-          EXPLORE CATEGORIES
+          LEAVE US A REVIEW
           </a>
           </div>
           </div>

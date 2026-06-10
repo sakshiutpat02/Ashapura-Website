@@ -34,13 +34,13 @@ export default function Footer() {
             Your family's favorite Grain Store.
           </p>
           <a
-            className="mt-6 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-primary"
-            href="https://www.instagram.com/ashapuramart.in?igsh=cjM2d3MxdHUxM2Q="
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Visit our Instagram page"
+          href="https://www.instagram.com/ashapuramart.in"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-flex items-center gap-3 rounded-full bg-white/10 px-4 py-2 text-white transition hover:bg-primary"
           >
-            <Icon name="instagram" className="h-5 w-5" />
+          <Icon name="instagram" className="h-5 w-5" />
+          <span>Visit Our Instagram</span>
           </a>
         </div>
         <FooterList title="Quick Links" items={quickLinks} linked />

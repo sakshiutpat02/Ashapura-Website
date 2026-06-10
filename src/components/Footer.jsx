@@ -60,6 +60,10 @@ export default function Footer() {
               <Icon name="clock" className="h-5 w-5 shrink-0 text-orange-200" />
               {store.hours}
             </li>
+            <li className="flex gap-3">
+              <Icon name="mail" className="h-5 w-5 shrink-0 text-orange-200" />
+              {store.email}
+            </li>
           </ul>
         </div>
       </div>
